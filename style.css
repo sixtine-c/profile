@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body {
+  background-color: rgb(243, 243, 243);
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  color:#7F8FA4 ;
+  font-size: 15px;
+}
+
+h1 {
+  color : #656d4a;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+}
+h2{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #414833;
+  padding-bottom: 10px ;
+}
+
+@media (min-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+.card-white {
+  background: white;
+  padding: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+.div-header {
+  margin-top: 50px;
+}
+
+
+#img-profile {
+  width: 150px;
+  border-radius: 50%;
+}
+
+#button-contact {
+  text-decoration: none;
+  color:whitesmoke;
+  border-radius: 5px;
+  background-color: #a4ac86;
+  padding: 15px 30px;
+
+}
+#button-contact:hover {
+  background-color: #656d4a;
+}
+
+
+
+
+.div-header > p {
+  margin-bottom: 30px;
+  color: #374151
+}
+
+#header-skills {
+  color : #656d4a;
+}
+#btn-skills > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 15px;
+}
+#btn-skills > li > a {
+  color:#7F8FA4;
+  text-decoration: none;
+
+}
+
+#btn-skills {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#social_medias {
+  color : #656d4a;
+}
+
+#btn-social-medias > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 30px;
+}
+#btn-social-medias > li > a {
+  color: grey;
+}
+
+#btn-social-medias {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#btn-social-medias >li > a:hover {
+  color: #c2c5aa;
+}
